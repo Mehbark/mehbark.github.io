@@ -1,3 +1,17 @@
-html {
-    background-color: #211d19;
+:root {
+    --background: #141110;
+    --foreground: #fcefe3;
+    --stand-out:  magenta;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+html {
+    background-color: var(--background);
+    color: var(--foreground);
+    font-family: "Zilla Slab", serif;
+}
+
+a {
+    color: var(--stand-out);
+}
+
