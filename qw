@@ -1,0 +1,6 @@
+#!/usr/bin/sh
+cd ~/vscodemain/mehbark.github.io || exit
+nvim "$("blog_raw/$1.md")"
+higo blog_raw blog
+git commit -m "$("add article: $1")"
+git push
