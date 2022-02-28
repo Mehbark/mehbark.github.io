@@ -33,12 +33,12 @@ body {
 }
 
 a:link {
-  color: magenta;
+  color: lightskyblue;
   text-decoration: none;
 }
 
 a:visited {
-  color: purple;
+  color: rgb(56, 108, 139);
   text-decoration: none;
 }
 
